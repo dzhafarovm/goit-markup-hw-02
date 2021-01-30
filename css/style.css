@@ -17,6 +17,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* ссылки */
 a {
   text-decoration: none;
 }
@@ -26,15 +27,16 @@ a {
   list-style: none;
 }
 
+/* Лого */
 .logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--black-color);
 }
 
-.foot-logo {
+.logo.foot {
   color: var(--white-color);
 }
 
@@ -114,13 +116,13 @@ a {
 }
 
 /* Наша команда */
-.team.list .title {
+.team .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.team.list .paragraph {
+.team .paragraph {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -132,8 +134,9 @@ a {
 .footer {
   background-color: var(--secondary-bg-color);
 }
-.footer .address {
+.address {
   color: var(--white-color);
+  font-style: normal;
   font-weight: 400;
   line-height: 1.71;
 }
@@ -152,19 +155,16 @@ a {
 .btn {
   color: var(--primary-text-color);
   background-color: var(--button-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .btn:hover,
 .btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
-}
-
-button {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
 }
 
 /* карточки */
