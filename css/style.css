@@ -154,6 +154,7 @@ a {
 /* Страница "Портфолио" */
 /* Кнопки */
 .btn {
+  border: none;
   color: var(--primary-text-color);
   background-color: var(--button-bg-color);
   font-family: inherit;
